@@ -1,0 +1,228 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\carellam\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\carellam\\AppData\\Local\\Temp\\npm-5316-a-pXo2BF\\1402919460287-0.8960760037880391\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\tmp.tgz
+13 verbose folder .
+14 info prepublish generator-timewarp@1.0.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\carellam\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 13337e32-60287-0-8960760037880391-tmp-tgz tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\tmp.tgz
+18 verbose lock tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\tmp.tgz C:\Users\carellam\AppData\Roaming\npm-cache\13337e32-60287-0-8960760037880391-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 13337e32-60287-0-8960760037880391-tmp-tgz tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\tmp.tgz
+22 silly lockFile 13337e32-60287-0-8960760037880391-tmp-tgz tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\tmp.tgz
+23 verbose tar unpack C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\tmp.tgz
+24 silly lockFile c4c0588a-60287-0-8960760037880391-package tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\package
+25 verbose lock tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\package C:\Users\carellam\AppData\Roaming\npm-cache\c4c0588a-60287-0-8960760037880391-package.lock
+26 silly lockFile 13337e32-60287-0-8960760037880391-tmp-tgz tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\tmp.tgz
+27 verbose lock tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\tmp.tgz C:\Users\carellam\AppData\Roaming\npm-cache\13337e32-60287-0-8960760037880391-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+33 silly gunzTarPerm extractEntry app/index.js
+34 silly gunzTarPerm modified mode [ 'app/index.js', 438, 420 ]
+35 silly gunzTarPerm extractEntry app/templates/_gruntfile.js
+36 silly gunzTarPerm modified mode [ 'app/templates/_gruntfile.js', 438, 420 ]
+37 silly gunzTarPerm extractEntry app/templates/editorconfig
+38 silly gunzTarPerm modified mode [ 'app/templates/editorconfig', 438, 420 ]
+39 silly gunzTarPerm extractEntry app/templates/js/app.controller.js
+40 silly gunzTarPerm modified mode [ 'app/templates/js/app.controller.js', 438, 420 ]
+41 silly gunzTarPerm extractEntry app/templates/js/app.main.js
+42 silly gunzTarPerm modified mode [ 'app/templates/js/app.main.js', 438, 420 ]
+43 silly gunzTarPerm extractEntry app/templates/js/lib.analytics.js
+44 silly gunzTarPerm modified mode [ 'app/templates/js/lib.analytics.js', 438, 420 ]
+45 silly gunzTarPerm extractEntry app/templates/js/lib.angular.js
+46 silly gunzTarPerm modified mode [ 'app/templates/js/lib.angular.js', 438, 420 ]
+47 silly gunzTarPerm extractEntry app/templates/js/lib.jquery.js
+48 silly gunzTarPerm modified mode [ 'app/templates/js/lib.jquery.js', 438, 420 ]
+49 silly gunzTarPerm extractEntry app/templates/js/plugin.boilerplate.js
+50 silly gunzTarPerm modified mode [ 'app/templates/js/plugin.boilerplate.js', 438, 420 ]
+51 silly gunzTarPerm extractEntry app/templates/js/plugin.whatever.js
+52 silly gunzTarPerm modified mode [ 'app/templates/js/plugin.whatever.js', 438, 420 ]
+53 silly gunzTarPerm extractEntry app/templates/js/timewarp.js
+54 silly gunzTarPerm modified mode [ 'app/templates/js/timewarp.js', 438, 420 ]
+55 silly gunzTarPerm extractEntry app/templates/jshintrc
+56 silly gunzTarPerm modified mode [ 'app/templates/jshintrc', 438, 420 ]
+57 silly gunzTarPerm extractEntry app/templates/scss/_layout.481up.scss
+58 silly gunzTarPerm modified mode [ 'app/templates/scss/_layout.481up.scss', 438, 420 ]
+59 silly gunzTarPerm extractEntry app/templates/scss/config.rb
+60 silly gunzTarPerm modified mode [ 'app/templates/scss/config.rb', 438, 420 ]
+61 silly gunzTarPerm extractEntry app/templates/scss/watch.bat
+62 silly gunzTarPerm modified mode [ 'app/templates/scss/watch.bat', 438, 420 ]
+63 silly gunzTarPerm extractEntry app/templates/scss/_core.scss
+64 silly gunzTarPerm modified mode [ 'app/templates/scss/_core.scss', 438, 420 ]
+65 silly gunzTarPerm extractEntry app/templates/scss/_layout.1030up.scss
+66 silly gunzTarPerm modified mode [ 'app/templates/scss/_layout.1030up.scss', 438, 420 ]
+67 silly gunzTarPerm extractEntry app/templates/scss/_layout.1240up.scss
+68 silly gunzTarPerm modified mode [ 'app/templates/scss/_layout.1240up.scss', 438, 420 ]
+69 silly gunzTarPerm extractEntry app/templates/scss/timewarp.scss
+70 silly gunzTarPerm modified mode [ 'app/templates/scss/timewarp.scss', 438, 420 ]
+71 silly gunzTarPerm extractEntry app/templates/scss/_layout.768up.scss
+72 silly gunzTarPerm modified mode [ 'app/templates/scss/_layout.768up.scss', 438, 420 ]
+73 silly gunzTarPerm extractEntry app/templates/scss/_layout.common.scss
+74 silly gunzTarPerm modified mode [ 'app/templates/scss/_layout.common.scss', 438, 420 ]
+75 silly gunzTarPerm extractEntry app/templates/scss/_layout.retina.scss
+76 silly gunzTarPerm modified mode [ 'app/templates/scss/_layout.retina.scss', 438, 420 ]
+77 silly gunzTarPerm extractEntry app/templates/scss/_normalize.scss
+78 silly gunzTarPerm modified mode [ 'app/templates/scss/_normalize.scss', 438, 420 ]
+79 silly gunzTarPerm extractEntry app/templates/scss/_reset.scss
+80 silly gunzTarPerm modified mode [ 'app/templates/scss/_reset.scss', 438, 420 ]
+81 silly gunzTarPerm extractEntry app/templates/_bower.json
+82 silly gunzTarPerm modified mode [ 'app/templates/_bower.json', 438, 420 ]
+83 silly gunzTarPerm extractEntry app/templates/_index.html
+84 silly gunzTarPerm modified mode [ 'app/templates/_index.html', 438, 420 ]
+85 silly gunzTarPerm extractEntry app/templates/_package.json
+86 silly gunzTarPerm modified mode [ 'app/templates/_package.json', 438, 420 ]
+87 silly lockFile c4c0588a-60287-0-8960760037880391-package tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\package
+88 silly lockFile c4c0588a-60287-0-8960760037880391-package tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\package
+89 silly lockFile 13337e32-60287-0-8960760037880391-tmp-tgz tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\tmp.tgz
+90 silly lockFile 13337e32-60287-0-8960760037880391-tmp-tgz tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\tmp.tgz
+91 verbose tar pack [ 'C:\\Users\\carellam\\AppData\\Roaming\\npm-cache\\generator-timewarp\\1.0.0\\package.tgz',
+91 verbose tar pack   'C:\\Users\\carellam\\AppData\\Local\\Temp\\npm-5316-a-pXo2BF\\1402919460287-0.8960760037880391\\package' ]
+92 verbose tarball C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package.tgz
+93 verbose folder C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\package
+94 silly lockFile c4c0588a-60287-0-8960760037880391-package tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\package
+95 verbose lock tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\package C:\Users\carellam\AppData\Roaming\npm-cache\c4c0588a-60287-0-8960760037880391-package.lock
+96 silly lockFile ebbf31e8-rator-timewarp-1-0-0-package-tgz tar://C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package.tgz
+97 verbose lock tar://C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package.tgz C:\Users\carellam\AppData\Roaming\npm-cache\ebbf31e8-rator-timewarp-1-0-0-package-tgz.lock
+98 silly lockFile c4c0588a-60287-0-8960760037880391-package tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\package
+99 silly lockFile c4c0588a-60287-0-8960760037880391-package tar://C:\Users\carellam\AppData\Local\Temp\npm-5316-a-pXo2BF\1402919460287-0.8960760037880391\package
+100 silly lockFile ebbf31e8-rator-timewarp-1-0-0-package-tgz tar://C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package.tgz
+101 silly lockFile ebbf31e8-rator-timewarp-1-0-0-package-tgz tar://C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package.tgz
+102 silly lockFile d2c602bb-generator-timewarp-1-0-0-package C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package
+103 verbose lock C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package C:\Users\carellam\AppData\Roaming\npm-cache\d2c602bb-generator-timewarp-1-0-0-package.lock
+104 silly lockFile d2c602bb-generator-timewarp-1-0-0-package C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package
+105 silly lockFile d2c602bb-generator-timewarp-1-0-0-package C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package
+106 verbose tar unpack C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package.tgz
+107 silly lockFile 29a27a2a-generator-timewarp-1-0-0-package tar://C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package
+108 verbose lock tar://C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package C:\Users\carellam\AppData\Roaming\npm-cache\29a27a2a-generator-timewarp-1-0-0-package.lock
+109 silly lockFile ebbf31e8-rator-timewarp-1-0-0-package-tgz tar://C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package.tgz
+110 verbose lock tar://C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package.tgz C:\Users\carellam\AppData\Roaming\npm-cache\ebbf31e8-rator-timewarp-1-0-0-package-tgz.lock
+111 silly gunzTarPerm modes [ '755', '644' ]
+112 silly gunzTarPerm extractEntry package.json
+113 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+114 silly gunzTarPerm extractEntry README.md
+115 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+116 silly gunzTarPerm extractEntry app/index.js
+117 silly gunzTarPerm modified mode [ 'app/index.js', 438, 420 ]
+118 silly gunzTarPerm extractEntry app/templates/_gruntfile.js
+119 silly gunzTarPerm modified mode [ 'app/templates/_gruntfile.js', 438, 420 ]
+120 silly gunzTarPerm extractEntry app/templates/editorconfig
+121 silly gunzTarPerm modified mode [ 'app/templates/editorconfig', 438, 420 ]
+122 silly gunzTarPerm extractEntry app/templates/js/app.controller.js
+123 silly gunzTarPerm modified mode [ 'app/templates/js/app.controller.js', 438, 420 ]
+124 silly gunzTarPerm extractEntry app/templates/js/app.main.js
+125 silly gunzTarPerm modified mode [ 'app/templates/js/app.main.js', 438, 420 ]
+126 silly gunzTarPerm extractEntry app/templates/js/lib.analytics.js
+127 silly gunzTarPerm modified mode [ 'app/templates/js/lib.analytics.js', 438, 420 ]
+128 silly gunzTarPerm extractEntry app/templates/js/lib.angular.js
+129 silly gunzTarPerm modified mode [ 'app/templates/js/lib.angular.js', 438, 420 ]
+130 silly gunzTarPerm extractEntry app/templates/js/lib.jquery.js
+131 silly gunzTarPerm modified mode [ 'app/templates/js/lib.jquery.js', 438, 420 ]
+132 silly gunzTarPerm extractEntry app/templates/js/plugin.boilerplate.js
+133 silly gunzTarPerm modified mode [ 'app/templates/js/plugin.boilerplate.js', 438, 420 ]
+134 silly gunzTarPerm extractEntry app/templates/js/plugin.whatever.js
+135 silly gunzTarPerm modified mode [ 'app/templates/js/plugin.whatever.js', 438, 420 ]
+136 silly gunzTarPerm extractEntry app/templates/js/timewarp.js
+137 silly gunzTarPerm modified mode [ 'app/templates/js/timewarp.js', 438, 420 ]
+138 silly gunzTarPerm extractEntry app/templates/jshintrc
+139 silly gunzTarPerm modified mode [ 'app/templates/jshintrc', 438, 420 ]
+140 silly gunzTarPerm extractEntry app/templates/scss/_layout.481up.scss
+141 silly gunzTarPerm modified mode [ 'app/templates/scss/_layout.481up.scss', 438, 420 ]
+142 silly gunzTarPerm extractEntry app/templates/scss/config.rb
+143 silly gunzTarPerm modified mode [ 'app/templates/scss/config.rb', 438, 420 ]
+144 silly gunzTarPerm extractEntry app/templates/scss/watch.bat
+145 silly gunzTarPerm modified mode [ 'app/templates/scss/watch.bat', 438, 420 ]
+146 silly gunzTarPerm extractEntry app/templates/scss/_core.scss
+147 silly gunzTarPerm modified mode [ 'app/templates/scss/_core.scss', 438, 420 ]
+148 silly gunzTarPerm extractEntry app/templates/scss/_layout.1030up.scss
+149 silly gunzTarPerm modified mode [ 'app/templates/scss/_layout.1030up.scss', 438, 420 ]
+150 silly gunzTarPerm extractEntry app/templates/scss/_layout.1240up.scss
+151 silly gunzTarPerm modified mode [ 'app/templates/scss/_layout.1240up.scss', 438, 420 ]
+152 silly gunzTarPerm extractEntry app/templates/scss/timewarp.scss
+153 silly gunzTarPerm modified mode [ 'app/templates/scss/timewarp.scss', 438, 420 ]
+154 silly gunzTarPerm extractEntry app/templates/scss/_layout.768up.scss
+155 silly gunzTarPerm modified mode [ 'app/templates/scss/_layout.768up.scss', 438, 420 ]
+156 silly gunzTarPerm extractEntry app/templates/scss/_layout.common.scss
+157 silly gunzTarPerm modified mode [ 'app/templates/scss/_layout.common.scss', 438, 420 ]
+158 silly gunzTarPerm extractEntry app/templates/scss/_layout.retina.scss
+159 silly gunzTarPerm modified mode [ 'app/templates/scss/_layout.retina.scss', 438, 420 ]
+160 silly gunzTarPerm extractEntry app/templates/scss/_normalize.scss
+161 silly gunzTarPerm modified mode [ 'app/templates/scss/_normalize.scss', 438, 420 ]
+162 silly gunzTarPerm extractEntry app/templates/scss/_reset.scss
+163 silly gunzTarPerm modified mode [ 'app/templates/scss/_reset.scss', 438, 420 ]
+164 silly gunzTarPerm extractEntry app/templates/_bower.json
+165 silly gunzTarPerm modified mode [ 'app/templates/_bower.json', 438, 420 ]
+166 silly gunzTarPerm extractEntry app/templates/_index.html
+167 silly gunzTarPerm modified mode [ 'app/templates/_index.html', 438, 420 ]
+168 silly gunzTarPerm extractEntry app/templates/_package.json
+169 silly gunzTarPerm modified mode [ 'app/templates/_package.json', 438, 420 ]
+170 silly lockFile 29a27a2a-generator-timewarp-1-0-0-package tar://C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package
+171 silly lockFile 29a27a2a-generator-timewarp-1-0-0-package tar://C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package
+172 silly lockFile ebbf31e8-rator-timewarp-1-0-0-package-tgz tar://C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package.tgz
+173 silly lockFile ebbf31e8-rator-timewarp-1-0-0-package-tgz tar://C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package.tgz
+174 verbose chmod C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package.tgz 644
+175 silly chown skipping for windows C:\Users\carellam\AppData\Roaming\npm-cache\generator-timewarp\1.0.0\package.tgz
+176 silly lockFile 3a52ce78- .
+177 silly lockFile 3a52ce78- .
+178 silly publish { name: 'generator-timewarp',
+178 silly publish   version: '1.0.0',
+178 silly publish   description: 'A simple mobile first SASS boilerplate for single page web apps',
+178 silly publish   license: 'MIT',
+178 silly publish   main: 'app/index.js',
+178 silly publish   repository:
+178 silly publish    { type: 'git',
+178 silly publish      url: 'git://github.com/mcarella/generator-timewarp' },
+178 silly publish   author: { name: 'mcarella', url: 'https://github.com/mcarella' },
+178 silly publish   engines: { node: '>=0.10.0' },
+178 silly publish   scripts: { test: 'mocha' },
+178 silly publish   files: [ 'app' ],
+178 silly publish   keywords: [ 'yeoman-generator' ],
+178 silly publish   dependencies:
+178 silly publish    { 'yeoman-generator': '~0.16.0',
+178 silly publish      chalk: '~0.4.0',
+178 silly publish      yosay: '^0.1.0' },
+178 silly publish   devDependencies: { mocha: '*' },
+178 silly publish   peerDependencies: { yo: '>=1.0.0' },
+178 silly publish   readme: '# generator-timewarp [![Build Status](https://secure.travis-ci.org/mcarella/generator-timewarp.png?branch=master)](https://travis-ci.org/mcarella/generator-timewarp)\n\n> [Yeoman](http://yeoman.io) generator\n\n\n## Getting Started\n\n### What is Yeoman?\n\nTrick question. It\'s not a thing. It\'s this guy:\n\n![](http://i.imgur.com/JHaAlBJ.png)\n\nBasically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.\n\nNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\n\n```bash\n$ npm install -g yo\n```\n\n### Yeoman Generators\n\nYeoman travels light. He didn\'t pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\n\nTo install generator-timewarp from npm, run:\n\n```bash\n$ npm install -g generator-timewarp\n```\n\nFinally, initiate the generator:\n\n```bash\n$ yo timewarp\n```\n\n### Getting To Know Yeoman\n\nYeoman has a heart of gold. He\'s a person with feelings and opinions, but he\'s very easy to work with. If you think he\'s too opinionated, he can be easily convinced.\n\nIf you\'d like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).\n\n\n## License\n\nMIT\n',
+178 silly publish   readmeFilename: 'README.md',
+178 silly publish   bugs: { url: 'https://github.com/mcarella/generator-timewarp/issues' },
+178 silly publish   homepage: 'https://github.com/mcarella/generator-timewarp',
+178 silly publish   _id: 'generator-timewarp@1.0.0',
+178 silly publish   dist: { shasum: '7dded6c6e64063965cf45865e51540685b0e7a16' },
+178 silly publish   _from: '.' }
+179 error need auth auth and email required for publishing
+179 error need auth You need to authorize this machine using `npm adduser`
+180 error System Windows_NT 6.1.7601
+181 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+182 error cwd C:\Users\carellam\Desktop\generator\generator-timewarp
+183 error node -v v0.10.22
+184 error npm -v 1.3.14
+185 error code ENEEDAUTH
+186 verbose exit [ 1, true ]

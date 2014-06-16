@@ -1,0 +1,36 @@
+{
+  "name": "generator-timewarp",
+  "version": "1.0.0",
+  "description": "A simple mobile first SASS boilerplate for single page web apps",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "mcarella/generator-timewarp",
+  "author": {
+    "name": "mcarella",
+    "email": "",
+    "url": "https://github.com/mcarella"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0",
+    "yosay": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
