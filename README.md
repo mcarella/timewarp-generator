@@ -1,12 +1,12 @@
-TYMEWARP: Timewarp Yeoman generator
-========
+## TYMEWARP: Timewarp Yeoman generator
 
-## Simple usage 
+
+### Simple usage
 `npm install -g generator-timewarp`
 
 `yo timewarp`
 
-## For more info
+### For more info
 
 [read timewarp documentation](http://mcarella.github.io/timewarp/)
 
