@@ -1,8 +1,9 @@
-TIMEWARP YEOMAN GENERATOR
+TYMEWARP: Timewarp Yeoman generator
 ========
 
-## Yeoman generator 
+## Simple usage 
 `npm install -g generator-timewarp`
+
 `yo timewarp`
 
 ## For more info
