@@ -1,4 +1,4 @@
-## TYMEWARP: Timewarp Yeoman generator
+## TYMEWARP (timewarp yeoman generator)
 
 
 ### Simple usage
